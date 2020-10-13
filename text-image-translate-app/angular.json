@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "text-image-translate-app"
+    }
+  },
+  "defaultProject": "text-image-translate-app",
+  "cli": {
+    "analytics": "78d26900-d474-4a0b-9db2-786d3cf9d287"
+  }
 }
