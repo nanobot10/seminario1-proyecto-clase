@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  frontend:
+      container_name: text-image-translate-app
+      build:
+          dockerfile: Dockerfile
+          context: ./text-image-translate-app
+      restart: always
+      ports: 
+          - '80:80'
